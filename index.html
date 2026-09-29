@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maenam Villa Hotel | Koh Samui</title>
+<meta name="description" content="Maenam Villa Hotel เกาะสมุย ที่พักติดชายหาดแม่น้ำ พร้อมห้องพักวิวทะเล บังกะโล และห้องพักพร้อมระเบียง">
+<meta name="keywords" content="Maenam Villa Hotel, Maenam, Koh Samui, แม่น้ำวิลล่า, เกาะสมุย, ที่พักติดทะเล">
+<meta property="og:title" content="Maenam Villa Hotel">
+<meta property="og:description" content="พักผ่อนริมทะเลที่ Maenam Villa Hotel เกาะสมุย">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0d4038">
+<style>
+:root{--deep:#0d4038;--deep2:#15564b;--sand:#f5efe3;--gold:#c49a5a;--ink:#19322d;--muted:#6d7b76;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--sand);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans Thai",sans-serif}
+a{text-decoration:none;color:inherit}.nav{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;color:#fff;background:linear-gradient(#082d28cc,#082d2800);transition:.25s}.nav.scrolled{background:var(--deep);box-shadow:0 5px 25px #0002}.logo{font-weight:900;letter-spacing:.08em}.links{display:flex;gap:24px;align-items:center}.links a{font-size:.94rem}.btn{border:0;border-radius:999px;padding:12px 20px;background:var(--gold);color:#fff;font-weight:800;cursor:pointer}.hamb{display:none;background:none;border:0;color:#fff;font-size:28px}
+.hero{min-height:760px;padding:130px 6% 90px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,#082d2899,#082d2830),linear-gradient(#0001,#0005),url("https://images.unsplash.com/photo-1505881502353-a1986add3762?auto=format&fit=crop&w=2200&q=85") center/cover}.hero>div{max-width:760px}.tag{letter-spacing:.16em;text-transform:uppercase;color:#f1d39d;font-size:.8rem;font-weight:800}.hero h1{font-size:clamp(3rem,8vw,6.6rem);line-height:.98;margin:14px 0}.hero p{font-size:1.15rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.outline{padding:12px 20px;border:1px solid #fff9;border-radius:999px;background:#fff1;font-weight:800}
+.searchbox{max-width:1120px;margin:-48px auto 0;position:relative;z-index:4;background:#fff;border-radius:24px;padding:20px;box-shadow:0 20px 50px #19322d18}.fields{display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:12px}.field label{font-size:.76rem;color:var(--muted);display:block;margin-bottom:5px}.field input,.field select{width:100%;padding:12px;border:1px solid #ded8cd;border-radius:12px;font:inherit;background:#fff}
+.section{max-width:1220px;margin:auto;padding:95px 5%}.center{text-align:center}.eyebrow{color:var(--gold);font-weight:900;letter-spacing:.14em;text-transform:uppercase;font-size:.75rem}.section h2{font-size:2.5rem;margin:8px 0 35px}.intro{max-width:760px;margin:0 auto;color:var(--muted)}
+.rooms{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.room{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 10px 35px #19322d12}.photo{height:245px;background:linear-gradient(135deg,#b8c8be,#e7d7b8);display:grid;place-items:center;color:#fff;font-weight:900;position:relative}.photo small{position:absolute;bottom:14px;left:14px;background:#0007;padding:6px 10px;border-radius:8px;font-weight:600}.roombody{padding:22px}.room h3{margin:0 0 5px;font-size:1.3rem}.facts{color:var(--muted);font-size:.9rem}.room ul{padding-left:20px;color:#53615c}.price{font-size:1.4rem;color:var(--deep);font-weight:900}.price small{font-size:.8rem;font-weight:500;color:var(--muted)}.room .btn{margin-top:8px}
+.dark{max-width:none;background:var(--deep);color:#fff}.amenities{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:15px;text-align:center}.amenity{padding:25px 12px;border:1px solid #ffffff20;border-radius:18px}.amenity b{display:block;margin-top:8px}.amenity span{font-size:2rem}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}.gallery .g{min-height:210px;border-radius:18px;display:grid;place-items:center;text-align:center;padding:20px;background:linear-gradient(135deg,#b6c7bf,#e3c99d);color:#fff;font-weight:900}.gallery .big{grid-row:span 2;min-height:432px}
+.notice{background:#fff8e9;border-left:4px solid var(--gold);padding:15px 18px;border-radius:10px;color:#624c2d}.map{height:310px;border-radius:22px;background:#dbe5de;display:grid;place-items:center;text-align:center;padding:25px}.map a{color:var(--deep);font-weight:900}
+.footer{background:#092d27;color:#dce9e4;padding:55px 5%}.footergrid{max-width:1150px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.footer small{color:#9eb2ab}.floating{position:fixed;right:18px;bottom:18px;z-index:15}
+.modal{display:none;position:fixed;inset:0;background:#0009;z-index:50;place-items:center;padding:20px}.modal.show{display:grid}.modalbox{background:#fff;max-width:520px;width:100%;border-radius:24px;padding:28px}.close{float:right;border:0;background:none;font-size:28px}.total{background:var(--sand);padding:15px;border-radius:14px;margin:15px 0;font-weight:900}
+@media(max-width:800px){.links{display:none}.hamb{display:block}.nav.open .links{display:flex;position:absolute;top:68px;left:5%;right:5%;background:var(--deep);padding:18px;border-radius:18px;flex-direction:column;align-items:stretch}.fields{grid-template-columns:1fr 1fr}.fields .btn{grid-column:1/-1}.rooms{grid-template-columns:1fr}.amenities{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.gallery .big{grid-row:auto;min-height:210px}.footergrid{grid-template-columns:1fr}.hero{min-height:680px}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="logo" href="#">MAENAM VILLA</a>
+  <nav class="links">
+    <a href="#about">เกี่ยวกับเรา</a><a href="#rooms">ห้องพัก</a><a href="#facilities">สิ่งอำนวยความสะดวก</a><a href="#gallery">แกลเลอรี</a><a href="#contact">ติดต่อ</a>
+    <button class="btn" onclick="openBook()">จองห้องพัก</button>
+  </nav>
+  <button class="hamb" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+</header>
+
+<section class="hero">
+ <div><div class="tag">Mae Nam · Koh Samui · Thailand</div><h1>Maenam Villa<br>พักผ่อนติดทะเล</h1><p>โรงแรมแม่น้ำวิลล่า ตั้งอยู่ที่ 5/5 หมู่ 1 ตำบลแม่น้ำ เกาะสมุย พร้อมห้องพักหลายรูปแบบ รวมถึงบังกะโลวิวทะเลและบังกะโลติดชายหาด</p><div class="actions"><a class="btn" href="#rooms">ดูห้องพัก</a><a class="outline" href="https://maenamvilla.com/" target="_blank">เว็บไซต์โรงแรม</a></div></div>
+</section>
+
+<section class="searchbox">
+ <div class="fields">
+  <div class="field"><label>เช็คอิน</label><input id="in" type="date"></div>
+  <div class="field"><label>เช็คเอาต์</label><input id="out" type="date"></div>
+  <div class="field"><label>ห้องพัก</label><select id="room"><option value="1600">Double Room with Balcony · จาก ฿1,600</option><option value="1800">Double Room · จาก ฿1,800</option><option value="2300">Double Room with Sea View · จาก ฿2,300</option><option value="2500">Bungalow with Sea View · จาก ฿2,500</option><option value="2300">Bungalow - Beach Front · จาก ฿2,300</option></select></div>
+  <button class="btn" onclick="calc()">คำนวณราคา</button>
+ </div>
+</section>
+
+<section class="section" id="about"><div class="center"><div class="eyebrow">About Maenam Villa</div><h2>ที่พักริมทะเลบนเกาะสมุย</h2><p class="intro">ข้อมูลที่ใช้ใน V6 อ้างอิงจากหน้าเว็บไซต์ทางการและข้อมูลห้องพัก/สิ่งอำนวยความสะดวกที่เผยแพร่บนแพลตฟอร์มจองที่พัก โดยราคาจะเปลี่ยนตามวันเข้าพักและโปรโมชั่น</p></div></section>
+
+<section class="section" id="rooms">
+ <div class="center"><div class="eyebrow">Rooms</div><h2>ห้องพักจริงของ Maenam Villa</h2></div>
+ <div class="notice">หมายเหตุ: ราคาด้านล่างเป็น “ราคาเริ่มต้นที่พบจากการตรวจสอบออนไลน์” ไม่ใช่ราคาคงที่ ระบบ V6 ควรเชื่อม Availability/Booking API เพื่อแสดงราคาจริงตามวันที่ลูกค้าเลือก</div>
+ <br>
+ <div class="rooms">
+  <article class="room"><div class="photo">Bungalow - Beach Front<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Bungalow - Beach Front</h3><div class="facts">25 m² · สูงสุด 2 ท่าน · King Bed · Sea View</div><ul><li>ห้องน้ำส่วนตัว</li><li>เครื่องปรับอากาศ</li><li>ครัว/ตู้เย็น/ไมโครเวฟ</li><li>ระเบียงและวิวทะเล</li></ul><div class="price">ประมาณ ฿1,500+ <small>/ คืน</small></div><button class="btn" onclick="pick(2300)">เลือกห้อง</button></div></article>
+  <article class="room"><div class="photo">Bungalow with Sea View<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Bungalow with Sea View</h3><div class="facts">25 m² · สูงสุด 2 ท่าน · Queen Bed · Sea View</div><ul><li>ห้องน้ำส่วนตัว</li><li>เครื่องปรับอากาศ</li><li>Kitchenette / Microwave</li><li>ระเบียงและวิวทะเล</li></ul><div class="price">ประมาณ ฿1,400+ <small>/ คืน</small></div><button class="btn" onclick="pick(2500)">เลือกห้อง</button></div></article>
+  <article class="room"><div class="photo">Double Room with Sea View<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Double Room with Sea View</h3><div class="facts">22 m² · สูงสุด 2 ท่าน · Double Bed</div><ul><li>ห้องน้ำส่วนตัว</li><li>เครื่องปรับอากาศ</li><li>Flat-screen TV</li><li>ระเบียงและวิวทะเล</li></ul><div class="price">ประมาณ ฿1,300+ <small>/ คืน</small></div><button class="btn" onclick="pick(2300)">เลือกห้อง</button></div></article>
+  <article class="room"><div class="photo">Double Room with Balcony<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Double Room with Balcony</h3><div class="facts">25 m² · สูงสุด 2 ท่าน · Double Bed · Garden View</div><ul><li>ระเบียง</li><li>เครื่องปรับอากาศ</li><li>ห้องน้ำส่วนตัว</li><li>Free Wi‑Fi</li></ul><div class="price">ประมาณ ฿900+ <small>/ คืน</small></div><button class="btn" onclick="pick(1600)">เลือกห้อง</button></div></article>
+  <article class="room"><div class="photo">Double Room<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Double Room</h3><div class="facts">22 m² · สูงสุด 2 ท่าน · Double Bed</div><ul><li>ห้องน้ำส่วนตัว</li><li>เครื่องปรับอากาศ</li><li>Flat-screen TV</li><li>Free Wi‑Fi</li></ul><div class="price">ประมาณ ฿1,000+ <small>/ คืน</small></div><button class="btn" onclick="pick(1800)">เลือกห้อง</button></div></article>
+  <article class="room"><div class="photo">Single Room with Bathroom<small>ภาพจริง: เปิดแกลเลอรีโรงแรม</small></div><div class="roombody"><h3>Single Room with Bathroom</h3><div class="facts">15 m² · สูงสุด 1 ท่าน · Single Bed · Garden View</div><ul><li>ห้องน้ำส่วนตัว</li><li>เครื่องปรับอากาศ</li><li>ระเบียง/ลาน</li><li>เหมาะสำหรับผู้เข้าพัก 1 คน</li></ul><div class="price">เช็กราคาตามวันเข้าพัก</div><button class="btn" onclick="pick(1200)">เลือกห้อง</button></div></article>
+ </div>
+</section>
+
+<section class="section dark" id="facilities"><div class="center"><div class="eyebrow">Facilities</div><h2>สิ่งอำนวยความสะดวก</h2></div><div class="amenities">
+ <div class="amenity"><span>🏖️</span><b>ติดชายหาด</b><small>Private beach area</small></div>
+ <div class="amenity"><span>📶</span><b>Free Wi‑Fi</b><small>ใช้งานได้ในที่พัก</small></div>
+ <div class="amenity"><span>🚗</span><b>ที่จอดรถ</b><small>ฟรีสำหรับผู้เข้าพัก</small></div>
+ <div class="amenity"><span>✈️</span><b>Airport Shuttle</b><small>มีบริการรับส่งโดยมีค่าใช้จ่าย</small></div>
+ <div class="amenity"><span>💆</span><b>Massage</b><small>บริการนวด</small></div>
+ <div class="amenity"><span>🚣</span><b>Water Sports</b><small>กิจกรรมทางน้ำ</small></div>
+ <div class="amenity"><span>🍳</span><b>Breakfast</b><small>อาหารเช้า</small></div>
+ <div class="amenity"><span>🧹</span><b>Housekeeping</b><small>ทำความสะอาดรายวัน</small></div>
+ </div></section>
+
+<section class="section" id="gallery"><div class="center"><div class="eyebrow">Real Property Photos</div><h2>แกลเลอรีภาพจริง</h2><p class="intro">เพื่อไม่ใช้รูปของโรงแรมอื่นโดยผิดพลาด V6 จะเชื่อมไปยังแกลเลอรีภาพจริงของ Maenam Villa จากแหล่งที่ตรวจสอบได้ จนกว่าจะมีไฟล์รูปต้นฉบับของโรงแรมสำหรับฝังลงเว็บไซต์โดยตรง</p></div><div class="gallery">
+ <a class="g big" href="https://www.booking.com/hotel/th/maenam-villa.html" target="_blank">📷 เปิดภาพจริง 58+ รูป<br>Booking.com</a>
+ <a class="g" href="https://www.agoda.com/en-nz/maenam-villa-hotel/hotel/koh-samui-th.html" target="_blank">📷 ภาพห้องพัก<br>Agoda</a>
+ <a class="g" href="https://maenamvilla.com/" target="_blank">📷 เว็บไซต์ทางการ<br>Maenam Villa</a>
+ <a class="g" href="https://www.trip.com/hotels/koh-samui-hotel-detail-9934952/maenam-villa-hotel/" target="_blank">📷 ภาพและห้องพัก<br>Trip.com</a>
+ <a class="g" href="https://www.priceline.com/hotel-deals/en-us/P5000022378/H69544904/maenam-villa-hotel.ssp/" target="_blank">📷 ห้องพัก<br>Priceline</a>
+ </div></section>
+
+<section class="section" id="contact"><div class="center"><div class="eyebrow">Contact</div><h2>ติดต่อ Maenam Villa</h2></div><div class="map"><div><b>5/5 หมู่ 1 ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84330</b><p>โทร: <a href="tel:+66979211007">+66 97 921 1007</a> · <a href="tel:+66839039930">+66 83 903 9930</a><br>LINE: maenamvilla · WhatsApp: +66 97 921 1007<br><br><a href="https://www.google.com/maps/search/?api=1&query=Maenam+Villa+Koh+Samui" target="_blank">📍 เปิด Google Maps</a></p></div></div></section>
+
+<footer class="footer"><div class="footergrid"><div><div class="logo">MAENAM VILLA HOTEL</div><p>5/5 Moo 1, Mae Nam, Koh Samui, Surat Thani 84330, Thailand</p><small>เว็บไซต์ V6 Prototype · ข้อมูลห้องพักและราคาอาจเปลี่ยนตามวันเข้าพัก</small></div><div><b>Contact</b><p>Sales@maenamvilla.com<br>admin@maenamvilla.com<br>+66 97 921 1007</p></div><div><b>Quick Links</b><p><a href="#rooms">ห้องพัก</a><br><a href="#facilities">สิ่งอำนวยความสะดวก</a><br><a href="https://maenamvilla.com/" target="_blank">เว็บไซต์ทางการ</a></p></div></div></footer>
+<div class="floating"><button class="btn" onclick="openBook()">จองห้องพัก</button></div>
+
+<div class="modal" id="modal"><div class="modalbox"><button class="close" onclick="closeBook()">×</button><h2>ตรวจสอบราคา</h2><p id="summary">เลือกวันเข้าพัก</p><div class="total" id="total">รวมโดยประมาณ: —</div><a class="btn" style="display:block;text-align:center" href="https://www.booking.com/hotel/th/maenam-villa.html" target="_blank">ไปยังระบบจองออนไลน์</a><p style="font-size:.8rem;color:#6d7b76">ราคาจริงและห้องว่างต้องตรวจสอบตามวันที่เลือกบนระบบจอง</p></div></div>
+<script>
+const $=x=>document.getElementById(x);
+window.addEventListener('scroll',()=>$('nav').classList.toggle('scrolled',scrollY>40));
+function openBook(){$('modal').classList.add('show');calc()}function closeBook(){$('modal').classList.remove('show')}
+function pick(p){$('room').value=p;openBook();calc()}
+function calc(){
+ const a=$('in').value,b=$('out').value,p=Number($('room').value);
+ if(!a||!b){$('summary').textContent='กรุณาเลือกวันเช็คอินและเช็คเอาต์';$('total').textContent='รวมโดยประมาณ: —';return}
+ const n=Math.round((new Date(b)-new Date(a))/86400000);
+ if(n<=0){$('summary').textContent='เช็คเอาต์ต้องอยู่หลังเช็คอิน';$('total').textContent='รวมโดยประมาณ: —';return}
+ const total=p*n;$('summary').textContent=`เข้าพัก ${n} คืน · อัตราประมาณ ฿${p.toLocaleString()} / คืน`;$('total').textContent=`รวมโดยประมาณ: ฿${total.toLocaleString()}`;
+}
+</script>
+</body>
+</html>
